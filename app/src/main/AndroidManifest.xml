@@ -11,10 +11,14 @@
         android:theme="@style/Theme.QuizApp">
 
         <activity
-            android:name=".QuizQuestionsActivity"
-            android:screenOrientation="portrait">
+            android:name=".ResultActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.QuizApp.NoActionBar" />
 
-        </activity>
+        <activity
+            android:name=".QuizQuestionsActivity"
+            android:screenOrientation="portrait" />
 
         <activity
             android:name=".MainActivity"
