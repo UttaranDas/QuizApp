@@ -12,7 +12,6 @@
 
         <activity
             android:name=".QuizQuestionsActivity"
-            android:exported="true"
             android:screenOrientation="portrait">
 
         </activity>
